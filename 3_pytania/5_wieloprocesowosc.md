@@ -250,6 +250,86 @@ Wykład "WdWK - wieloprocesowość.pdf" slajd 26
 
 ---
 
-##
+## Czy odwzorowanie częściowe pamięci procesu (przestrzeni wirtualnej) w pamięci operacyjnej jest wystarczające?
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd 27
+
+---
+
+Tak, ponieważ wynika to z lokalności odwołań (lokalność czasowa oraz przestrzenna).
+
+## Czy jest możliwe bezkonfliktowe jednoczesne odwzorowanie pamięci kilku procesów?
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd 27
+
+---
+
+Tak, o ile możliwe jest w danym przypadku oszacowanie przeciętnego zapotrzebowania procesu na pamięć fizyczną (Prawo Little?)
 
 ## Opisz krótko czym są oraz jak są przydzielane partycje procesów
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd 27, 28
+
+---
+
+Partycja - część pamięci głównej przydzielonej procesowi. Rozmiar określony jako całkowita wielokrotność bloków o ustalonej wielkości (ramki stron), które przydzielone są statycznie bądź dynamicznie.
+
+## Wyjaśnij pojęcie partycji rozproszonej.
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd 29
+
+---
+
+Jest to partycja złożona z niekolejnych bloków pamięci (ramek stron), co jest możliwe dzięki stronicowaniu.
+
+## Wyjasnij czym jest adres logiczny oraz liniowy
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd 32, 33
+
+---
+
+## Wyjasnij jak zorganizowana jest segmentacja w architekturze x86
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd 33-40
+
+---
+
+## Wyjasnij jak zorganizowane jest stronicowanie w architekturze x86
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd 41-45
+
+---
+
+## Wyjasnij pojęcie pamięci podręcznej tablicy stron (TLB)
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd 46-48
+
+---
+
+## Wyjasnij czym jest Transparent Hugepage Support (THP)
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd 52
+
+---
+
+## Wyjasnij czym jest Odwrócona Tablica Stron
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd 55
+
+---
+
+## ...
+
+## Wyjasnij czym jest Kontekst Procesu
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd 63-67
+
+---
+
+## Task Management
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd 68-70
+
+---
+
+## ...
