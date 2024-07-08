@@ -147,25 +147,23 @@ L2:
 
 ## Opisz kompletny model MESI i jego funkcję
 
-## Po co jest -> to prokół spójności pamięci podręcznej
+Po co jest -> to prokół spójności pamięci podręcznej
 
-## | Różne dane co do wyższego poziomu | Te same dane co w wyższym poziomie | /
+| Różne | Jednakowe | Dane / zapis |
+| ----- | --------- | ------------ |
+| I     | S         | skrośny      |
+| M     | E         | zwrotny      |
 
-## | I | S | wskroś
+Stany:
 
-## | M | E | zwrotny
+- modified M - linia zawiera ważną zmodyfikowaną kopię danych,
+  kopia w pamięci głównej nie ważna, żaden inny procesor nie ma tej kopii
 
-modified M - linia zawiera ważną zmodyfikowaną kopię danych,
-kopia w pamięci głównej nie ważna, żaden inny procesor nie ma tej kopii
+- exclusive E - linia zawiera ważną zmodyfikowaną kopię danych, kopia w pamięci głównej też jest ważna poprawna, żaden inny procesor nie ma tej kopii
 
-exclusive E - linia zawiera ważną zmodyfikowaną kopię danych,
-kopia w pamięci głównej też jest ważna poprawna, żaden inny procesor nie ma tej kopii
+- shared S -linia zawiera ważną poprawną kopię danych, inne procesory mogą/nie muszą mieć ważnej kopii,
 
-shared S -linia zawiera ważną poprawną kopię danych,
-inne procesory mogą/nie muszą mieć ważnej kopii,
-
-invalid I - linia zawiera nieważną kopię danych,
-ważne kopie są w innych procesorach lub pamięci głównej
+- invalid I - linia zawiera nieważną kopię danych, ważne kopie są w innych procesorach lub pamięci głównej
 
 WT write-through, CB copy-back i WO write-once aktualizują pamięci
 
