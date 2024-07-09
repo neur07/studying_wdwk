@@ -294,6 +294,30 @@ Wykład "WdWK - wieloprocesowość.pdf" slajd 33-40
 
 ---
 
+## Krótko przedstaw czym są rejestry segementowe oraz wyjaśnij które z nich muszą być załadowane poprawnymi selektorami segmentu przy wykonaniu?
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd 33-40
+
+---
+
+Zadaniem rejestrów segmentowych jest przede wszystkim usprawnienie procesu translacji adresu poprzez redukcję liczby cykli potrzebnych do odczytu danych deskryptora segmentu. W architekturze x86 jest ich 6, a każdy z nich przechowuje wyspecjalizowany typ referencji pamięciowej. Te najbardziej kluczowe z nich to:
+
+- CS (Code Segment)
+- DS (Data Segment)
+- SS (Stack Segment)
+
+## Wytłumacz pojęcie "Shadow registers".
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd 33-40
+
+---
+
+Każdy rejestr segmentowy składa się z części widocznej i ukrytej. Ta druga często jest określana właśnie terminem "Descriptor cache" bądź "Shadow register". Podczas ładowania widocznej części rejestru ładowana jest również ta ukryta, która zawiera informacje z deskryptora segmentu wskazywanego przez selektor segmentu. Są to:
+
+- adres bazowy
+- limit segmentu
+- prawa dostępu do segmentu
+
 ## Wyjasnij jak zorganizowane jest stronicowanie w architekturze x86
 
 Wykład "WdWK - wieloprocesowość.pdf" slajd 41-45
@@ -305,6 +329,12 @@ Wykład "WdWK - wieloprocesowość.pdf" slajd 41-45
 Wykład "WdWK - wieloprocesowość.pdf" slajd 46-48
 
 ---
+
+Bufor translacji antycypacji adresu / TLB (ang. Translation Lookaside
+Buffer) - pamięć podręczna, która przechowuje przemapowanie z
+adresów wirtualnych do adresów fizycznych. W tym buforze znajduje się
+końcowy wynik przejścia po tych wszystkich tablicach dla określonej części
+adresu.
 
 ## Wyjasnij czym jest Transparent Hugepage Support (THP)
 
