@@ -18,7 +18,7 @@ przyrost wydajnosci jest proporcjonalny do pierwiastka z liczby rdzeni
 - macierz połączeń bezpośrednich
 - magistrala
 
-##Jakie są funkcje użytkownika w oprogramowaniu we/wy?
+## Jakie są funkcje użytkownika w oprogramowaniu we/wy?
 
 - Zmiana symbolicznej nazwy urządzenia na nazwę logiczną.
 - Przeformatowanie danych na postać wymaganą przez urządzenie.
