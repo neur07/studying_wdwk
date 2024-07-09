@@ -80,7 +80,7 @@ Pamięć podręczna - organizacja blokowo-skojarzeniowa, kopia używanych danych
 
 - całkowicie skojarzeniowe
 - bezpośrednie: z przeplotem, bez przeplotem
-- wielodrożne: z przeplotem, bez przeplotu
+- blokowo-skojarzeniowe (wielodrożne): z przeplotem bądź bez przeplotu
 
 ## Wymień i opisz schematy zarządzania liniami w pamięci podręcznej
 
