@@ -294,7 +294,7 @@ Wykład "WdWK - wieloprocesowość.pdf" slajd 33-40
 
 ---
 
-## Krótko przedstaw czym są rejestry segementowe oraz wyjaśnij które z nich muszą być załadowane poprawnymi selektorami segmentu przy wykonaniu?
+## Krótko przedstaw czym są rejestry segmentowe oraz wyjaśnij które z nich muszą być załadowane poprawnymi selektorami segmentu przy wykonaniu?
 
 Wykład "WdWK - wieloprocesowość.pdf" slajd 33-40
 
@@ -363,3 +363,54 @@ Wykład "WdWK - wieloprocesowość.pdf" slajd 68-70
 ---
 
 ## ...
+
+## Wymień schematy pobierania
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd X
+
+---
+
+- Pobranie wymuszone: można pobierać tylko wtedy kiedy jest wyjątek braku strony-
+- Pobranie antycypowane: na podstawie prognozy zapotrzebowania procesu na dane (lokalność)
+
+## Wymień schematy przydziału
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd X
+
+---
+
+## Podaj przykłady strategii wymiany
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd X
+
+---
+
+## Wyjaśnij czym jest Anomalia Belady'ego
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd X
+
+---
+
+##
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd X
+
+---
+
+##
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd X
+
+---
+
+##
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd X
+
+---
+
+##
+
+Wykład "WdWK - wieloprocesowość.pdf" slajd X
+
+---
