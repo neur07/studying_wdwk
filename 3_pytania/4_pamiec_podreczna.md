@@ -93,7 +93,7 @@ Schematy:
 - pobierania linii
   wymuszone, uprzedzające
 
-## Wymień i opisz kategorie chybień
+## Wymień i opisz kategorie (przyczyny) chybień
 
 -nieuniknione
 podczas pierwszej próby dostępu do bloku,
@@ -181,3 +181,13 @@ mieszczące się w pamięci cache
 Zalety:
 
 - zwiększenie lokalności przestrzennej i czasowej
+
+## Co zawiera linia w pamięci podręcznej?
+
+W skład linii wchodzi zarówno fragment z pamięci operacyjnej jak i informacja z którego fragmentu pamięci operacyjnej są dane oraz jakieś dodatkowe bity. Linia może przechowywać dowolny fragment pamięci głównej (Pod warunkiem że adres początkowy bloku danych jest podzielny przez rozmiar linii).
+
+## Kiedy następuje wypełnienie (bądź wymiana) linii?
+
+## Kiedy następuje uniewaznienie linii?
+
+## Co zmieniają tryby pracy pamięci podręcznej?

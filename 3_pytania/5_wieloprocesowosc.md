@@ -391,11 +391,14 @@ Wykład "WdWK - wieloprocesowość.pdf" slajd X
 
 ---
 
-##
+## Wyjaśnij czym jest i jaką rolę pełni MMU
 
 Wykład "WdWK - wieloprocesowość.pdf" slajd X
 
 ---
+
+- translacja adresu
+- sprawwdzanie praw dostępu
 
 ##
 
